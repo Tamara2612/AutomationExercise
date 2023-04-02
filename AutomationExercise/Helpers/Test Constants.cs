@@ -21,5 +21,9 @@ namespace AutomationExercise.Helpers
         public const string City = "Montrael";
         public const string Zipcode = "10010";
         public const string Phone = "0800100100";
+
+        //contact us data
+        public const string Subject = "Request";
+        public const string Message = "Would you be able to remove all ads from your website?";
     }
 }
