@@ -18,6 +18,7 @@ namespace AutomationExercise.Pages
         public By message = By.Id("message");
         public By submit = By.Name("submit");
         public By form = By.Id("contact-us-form");
+        public By uploadBtn = By.Name("upload_file");
         
         public ContactUsPage(IWebDriver driver)
         {

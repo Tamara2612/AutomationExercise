@@ -27,6 +27,8 @@ namespace AutomationExercise.Steps
             ut.EnterTextinElement(cup.email, TestConstants.Username);
             ut.EnterTextinElement(cup.subject, TestConstants.Subject);
             ut.EnterTextinElement(cup.message, TestConstants.Message);
+            string path= @"C:\Users\marin\Downloads\Locators_table_1_0_2.pdf";
+            Driver.FindElement(cup.uploadBtn).SendKeys(path);
         }
         
         [When(@"submits contact us form")]
