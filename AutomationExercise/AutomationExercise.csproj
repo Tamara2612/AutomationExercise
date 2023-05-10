@@ -84,20 +84,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\Base.cs" />
+    <Compile Include="Helpers\ProductData.cs" />
     <Compile Include="Helpers\Test Constants.cs" />
     <Compile Include="Helpers\Utilities.cs" />
     <Compile Include="Pages\AccountCreatedPage.cs" />
     <Compile Include="Pages\AuthenticationPage.cs" />
     <Compile Include="Pages\ContactUsPage.cs" />
     <Compile Include="Pages\HeaderPage.cs" />
+    <Compile Include="Pages\ProductDetailsPage.cs" />
+    <Compile Include="Pages\ProductsListPage.cs" />
     <Compile Include="Pages\SignupPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\AuthenticationSteps.cs" />
     <Compile Include="Steps\ContactUsSteps.cs" />
+    <Compile Include="Steps\PDPSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Features\Authentication.feature" />
     <None Include="Features\ContactUs.feature" />
+    <None Include="Features\PDP.feature" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
